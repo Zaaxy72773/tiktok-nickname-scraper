@@ -14,6 +14,6 @@ This tool scrapes the nicknames off of tiktok accounts that the user provides in
 
 ## Help
 
-Make sure you add usernames into "usernames.txt"
-Make sure you install the requirments
-If you are only getting errors try using a vpn
+Make sure you add usernames into "usernames.txt"<br>
+Make sure you install the requirments<br>
+If you are only getting errors try using a vpn<br>
