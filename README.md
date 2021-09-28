@@ -1,4 +1,4 @@
-# WeHeartIt Scraper
+# Tiktok Nickname Scraper
 
 This tool scrapes the nicknames off of tiktok accounts that the user provides in a text file.
 
