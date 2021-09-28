@@ -1,6 +1,6 @@
 # Tiktok Nickname Scraper
 
-This tool scrapes the nicknames off of tiktok accounts that the user provides in a text file.
+This tool scrapes the nicknames off of tiktok accounts that the user provides in a text file.<br>
 I will add proxy support later, it should still work on low threads though!
 
 ### Dependencies
