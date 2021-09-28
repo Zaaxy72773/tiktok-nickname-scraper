@@ -8,8 +8,11 @@ usernames = [word.rstrip().lower() for word in open('usernames.txt', 'r+').readl
 users = queue.Queue()
 
 headers = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
-    }
+        'Cookie': 'krul',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3'
+        }
 
 def scrape(text):
     if (scraped := re.findall('"nickname":"(.*?)"', text)) != []:
